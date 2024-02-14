@@ -67,7 +67,7 @@ The [excess kurtosis][kurtosis] for a [raised cosine][cosine-distribution] rando
 ## Usage
 
 ```javascript
-import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cosine-kurtosis@deno/mod.js';
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cosine-kurtosis@v0.2.0-deno/mod.js';
 ```
 
 #### kurtosis( mu, s )
@@ -127,7 +127,7 @@ y = kurtosis( 0.0, -1.0 );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cosine-kurtosis@deno/mod.js';
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cosine-kurtosis@v0.2.0-deno/mod.js';
 
 var mu;
 var s;
